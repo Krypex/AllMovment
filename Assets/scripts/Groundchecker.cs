@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Groundchecker : MonoBehaviour {
-    public static int isgrounded;
-    public int airchecker;
+    public int isgrounded;
+    
     // OM dett objekt nuddar ett objekt så händer detta nedan
     private void OnTriggerEnter2D(Collider2D collision)
     {
